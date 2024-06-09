@@ -170,7 +170,7 @@ h6{
 /* start landing  */
 #landing{
     text-transform: capitalize;
-    background-image: url(file:///D:/my%20projects/store/img/hero4.png);
+    background-image: url(../img/hero4.png);
     height: 87vh;
     width: 100%;
     background-size: cover;
@@ -190,7 +190,7 @@ h6{
 }
 #landing button{
     width: fit-content;
-    background-image: url(file:///D:/my%20projects/store/img/button.png);
+    background-image: url(../img/button.png);
     background-color: transparent;
     cursor: pointer;
     color: #088178;
@@ -364,7 +364,7 @@ ul{
 /* banner1 */
 
 #banner1{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b2.jpg);
+    background-image: url(../img/banner/b2.jpg);
     width: 100%;
     text-align: center;
     padding-top: 30px;
@@ -430,7 +430,7 @@ ul{
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
-    background-image: url(file:///D:/my%20projects/store/img/banner/b17.jpg);
+    background-image: url(../img/banner/b17.jpg);
     min-width: 49%;
     height: 50vh;
     background-size: cover;
@@ -439,7 +439,7 @@ ul{
     
 }
 #semi-banner .banner-box-2{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b10.jpg);
+    background-image: url(../img/banner/b10.jpg);
     background-position: center;
 }
 #semi-banner .banner-box h4{
@@ -500,7 +500,7 @@ ul{
     flex-wrap: wrap;
 }
 #banner-3 .bunner-box{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b7.jpg);
+    background-image: url(../img/banner/b7.jpg);
     width: 100%;
     height: 25vh;
     width: 32%;
@@ -512,11 +512,11 @@ ul{
     padding: 0 30px;
 }
 #banner-3 .bunner-box.bunner-box2{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b4.jpg);
+    background-image: url(../img/banner/b4.jpg);
     background-position: center;
 }
 #banner-3 .bunner-box.bunner-box3{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b18.jpg);
+    background-image: url(../img/banner/b18.jpg);
     background-position: center;
 }
 #banner-3 .bunner-box h4{
@@ -544,7 +544,7 @@ ul{
 /* banner 3 */
 /* newsletter*/
 #newsletter{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b14.jpg);
+    background-image: url(../img/banner/b14.jpg);
     background-size: cover;
     display: flex;
     justify-content: space-between;
@@ -674,7 +674,7 @@ footer .copyright{
 
 /* shop page  */
 #shop-banner{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b1.jpg);
+    background-image: url(../img/banner/b1.jpg);
     height: 40vh;
     width: 100%;
     display: flex;
@@ -778,7 +778,7 @@ footer .copyright{
 /* blog page  */
 
 #blog-banner{
-    background-image: url(file:///D:/my%20projects/store/img/banner/b19.jpg);
+    background-image: url(../img/banner/b19.jpg);
     height: 40vh;
     width: 100%;
     display: flex;
@@ -875,7 +875,7 @@ footer .copyright{
 
 /* about page  */
 #about-banner{
-    background-image: url(file:///D:/my%20projects/store/img/about/banner.png);
+    background-image: url(../img/about/banner.png);
     height: 40vh;
     width: 100%;
     display: flex;
