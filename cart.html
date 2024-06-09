@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- navbar  -->
+    <section id="header">
+        <a href="#"><img class="logo" src="./img/logo.png" alt=""></a>
+        <div >
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Shop.html">Shop</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="fa-solid fa-bag-shopping fa-lg"></i></a></li>
+                <a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+            </ul>
+        </div>
+        <div class="mobile">
+            <a href="cart.html"><i class="fa-solid fa-bag-shopping fa-lg"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+     </section>
+     <!-- landing  -->
+     <section id="about-banner" class="contact">
+        <h2>#cart</h2>
+        <p>add your coupoon code & save up to 70%  !</p>
+     </section>
+     <!-- table  -->
+     <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Remove</td>
+                    <td>Image</td>
+                    <td>Product</td>
+                    <td>Price</td>
+                    <td>Quantity</td>
+                    <td>Subtotal</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f1.jpg" alt=""></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$130</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f2.jpg" alt=""></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$130</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$130</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fa-regular fa-circle-xmark"></i></a></td>
+                    <td><img src="img/products/f3.jpg" alt=""></td>
+                    <td>cartoon astronaut t-shirts</td>
+                    <td>$130</td>
+                    <td><input type="number" value="1"></td>
+                    <td>$130</td>
+                </tr>
+            </tbody>
+        </table>
+     </section>
+     <!-- coupon  -->
+     <section id="cart-add" class="section-p1">
+        <div id="coupon">
+            <h3>Apply Coupon</h3>
+            <div>
+                <input type="text" placeholder="Enter your coupon">
+                <button class="normal">Apply</button>
+            </div>
+        </div>
+        <div id="subtotal">
+            <h3>Cart Total</h3>
+            <table>
+                <tr>
+                    <td>Cart Subtotal</td>
+                    <td>$ 335</td>
+                </tr>
+                <tr>
+                    <td>Shopping</td>
+                    <td>Free</td>
+                </tr>
+                <tr>
+                    <td><b>Total</b></td>
+                    <td><b>$ 335</b></td>
+                </tr>
+            </table>
+            <button class="normal">proceed to checkout</button>
+        </div>
+     </section>
+     <!-- footer  -->
+     <footer class="section-p1">
+        <div class="col ">
+            <img class="logo" src="img/logo.png" alt="">
+            <h4>contact</h4>
+            <p><strong>address:</strong> 562 wellington road ,street 32</p>
+            <p><strong>phone:</strong> +012222365 / (+91)0123456789</p>
+            <p><strong>hours:</strong> 10:00-18:00</p>
+            <h4>follow us</h4>
+            <div class="social">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-x-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-pinterest"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+        <div class="col ">
+            <h4>about</h4>
+            <a href="#">about us</a>
+            <a href="#">delivery inormation</a>
+            <a href="#">privacy policy</a>
+            <a href="#">term & conditions</a>
+            <a href="#">contact us</a>
+        </div>
+        <div class="col ">
+            <h4>my account</h4>
+            <a href="#">sign in</a>
+            <a href="#">view </a>
+            <a href="#">my wishlist</a>
+            <a href="#">track my order</a>
+            <a href="#">help</a>
+        </div>
+        <div class="col ">
+            <h4>install app</h4>
+            <p>from app store  & google play</p>
+            <div class="install">
+                <img src="img/pay/app.jpg" alt="">
+                <img src="img/pay/play.jpg" alt="">
+            </div>
+            <p>secured payment gateways</p>
+            <div class="pay">
+                <img src="img/pay/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p>this website designed by mohammed atef</p>
+        </div>
+     </footer>
+    <script src="/js/cart.js"></script>
+</body>
+</html>
